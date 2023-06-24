@@ -357,8 +357,8 @@ input {
 }
 
 .design .box2 .frame1 .component1 .logos .icon1{
-  width:6.5rem;
-  height:5.5rem;
+  width:6rem;
+  height:5rem;
   margin-top: 4rem;
   margin-left:4rem;
   color:#524c4c;
@@ -719,6 +719,10 @@ input {
 
 .design .group-6 .group13 .project-grid .my-project-card img{
   object-fit: contain;
+}
+
+.design .group-6 .group13 .project-grid .my-project-card .project-details{
+  font-family: Poppins, 'Source Sans Pro' ;
 }
 
 
