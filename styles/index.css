@@ -717,6 +717,10 @@ input {
   
 }
 
+.design .group-6 .group13 .project-grid .my-project-card img{
+  object-fit: contain;
+}
+
 
 
 
@@ -827,6 +831,7 @@ input {
 .project-card img {
   max-width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .project-card h3 {

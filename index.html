@@ -6,7 +6,7 @@
   <link rel="icon" href="/favicon.ico" />
   <meta name="theme-color" content="#000000" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/css/bootstrap.min.css">
   <title>Portfolio/CV</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alex+Brush%3A400" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C600%2C800" />
@@ -16,20 +16,171 @@
 
 
   <style>
+    /* Mobile Styles */
     @media only screen and (max-width: 600px) {
-      /* Adjust the styles for smaller screens */
-      /* For example: */
-      .header {
+      .main {
+        flex-direction: column;
+        align-items: center;
+      }
+      .group1 {
+        flex-direction: column;
+        align-items: center;
+      }
+      .circle_avatar {
+        margin-top: 20px;
+      }
+      .row {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .nav-bar {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+      .box2 {
+        padding: 20px;
+        width: 100%;
+      }
+      .group4 {
+        padding: 20px;
+      }
+      .group-6 {
+        padding: 20px;
+      }
+      .group-8 {
+        flex-direction: column;
+        align-items: center;
+      }
+      .group10 {
+        margin-top: 20px;
+      }
+      .group11 {
+        margin-top: 20px;
+      }
+      .group12 {
+        margin-top: 20px;
+      }
+      .group13 {
+        padding: 20px;
+      }
+      .project-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+      }
+      .group14 {
+        padding: 20px;
+      }
+      .get-in-touch {
+        margin-top: 20px;
+      }
+      .footer {
+        padding: 20px;
+        text-align: center;
+      }
+      .footer-links {
+        flex-direction: column;
+        margin-top: 20px;
+      }
+      .welcome {
+        font-size: 24px;
+      }
+      .name {
+        font-size: 36px;
+      }
+      .number,
+      .gmail {
+        font-size: 16px;
+      }
+      .download-resume {
         font-size: 20px;
       }
-      
-      /* Add more styles as needed */
+      .box2 {
+        width: 100%;
+        padding: 10px;
+      }
+      .group4 {
+        padding: 10px;
+      }
+      .about-me {
+        font-size: 16px;
+      }
+      .my-skills {
+        font-size: 20px;
+      }
+      .s1,
+      .s3,
+      .s4,
+      .s {
+        /* Add your additional mobile styles here */
+        font-size: 18px;
+      margin-top: 10px;
+      }
     }
   </style>
+  
   
 </head>
 
 <body>
+  <div class="container">
+    <div class="header" id="home">
+      <!-- Rest of the content -->
+
+      <!-- Use Bootstrap classes to make the content responsive -->
+
+      <div class="row">
+        <div class="col-md-6">
+          <!-- Content for the left side -->
+        </div>
+        <div class="col-md-6">
+          <!-- Content for the right side -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Content for the full-width section -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <!-- Content for the left section -->
+        </div>
+        <div class="col-md-6">
+          <!-- Content for the middle section -->
+        </div>
+        <div class="col-md-3">
+          <!-- Content for the right section -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <!-- Content for the left section -->
+        </div>
+        <div class="col-md-4">
+          <!-- Content for the middle section -->
+        </div>
+        <div class="col-md-4">
+          <!-- Content for the right section -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Content for the full-width section -->
+        </div>
+      </div>
+
+      <!-- Rest of the content -->
+    </div>
+  </div>
+
+  <!-- Add Bootstrap JavaScript library at the end of the body -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/js/bootstrap.bundle.min.js"></script>
   <div class="design">
     <div class="header" id="home">
       <p class="first">Disha Gupta
@@ -201,7 +352,7 @@
           <br />
           <br />
           <br />
-          <img class="flutter_logo" src="./assets/flutter.png" />
+          <img class="flutter_logo" src="./assets/flutte.png" />
           <img class="android_logo" src="./assets/android.png" />
           <br />
         </div>
@@ -318,51 +469,51 @@
 
         <div class="project-grid">
           <div class="my-project-card">
-            <img src="project1.jpg" alt="Project 1">
+            <img src="assets/mern.jpg" alt="Project 1">
             <div class="project-details">
-              <h3>Project 1</h3>
-              <p>Description of Project 1</p>
+              <h3>MERN Projects</h3>
+              <p>List of MERN stack projects</p>
               <a href="#" class="btn">View Project</a>
             </div>
           </div>
           <div class="my-project-card">
-            <img src="project2.jpg" alt="Project 2">
+            <img src="assets/htmlcssjs.jpg" alt="Project 2">
             <div class="project-details">
-              <h3>Project 2</h3>
-              <p>Description of Project 2</p>
+              <h3>HTML CSS JAVASCRIPT</h3>
+              <p>Collection of projects</p>
               <a href="#" class="btn">View Project</a>
             </div>
           </div>
           <div class="my-project-card">
-            <img src="project3.jpg" alt="Project 3">
+            <img src="assets/reacct.png" alt="Project 3">
             <div class="project-details">
-              <h3>Project 3</h3>
-              <p>Description of Project 3</p>
+              <h3>React Projects</h3>
+              <p>Projects made with React Framework</p>
               <a href="#" class="btn">View Project</a>
             </div>
           </div>
           <div class="my-project-card">
-            <img src="project4.jpg" alt="Project 4">
+            <img src="assets/flutter.png" alt="Project 4">
             <div class="project-details">
-              <h3>Project 4</h3>
-              <p>Description of Project 4</p>
+              <h3>Flutter Projects</h3>
+              <p>Projects made with Flutter framework</p>
               <a href="#" class="btn">View Project</a>
             </div>
           </div>
           <div class="my-project-card">
-            <img src="project4.jpg" alt="Project 4">
+            <img src="assets/banner.jpg" alt="Project 5" >
             <div class="project-details">
-              <h3>Project 4</h3>
-              <p>Description of Project 4</p>
-              <a href="#" class="btn">View Project</a>
+              <h3>Android Projects</h3>
+              <p>Projects in app development with kotlin</p>
+              <a href="#" class="btn">View Projects</a>
             </div>
           </div>
           <div class="my-project-card">
-            <img src="project4.jpg" alt="UX/UI Projects">
+            <img src="assets/uxandui.jpg" alt="UX/UI Projects">
             <div class="project-details">
               <h3>UX/UI Projects</h3>
               <p>Collection of my UX/UI Designing.</p>
-              <a href="#" class="btn" >See more</a>
+              <a href="https://www.behance.net/disha2908243e7" class="btn" >See more</a>
             </div>
           </div>
         </div>
@@ -432,6 +583,8 @@
       typeSpeed: 30,
     });
   </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/js/bootstrap.min.js"></script>
+
 
 
 </body>
